@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <h1>Определение денежной массы в обращении</h1> 
+   <p class="p1">М = Р * Q / V</p>
+    <br>
+    <label for="srednie">Р — средние цены на продукцию:</label><input type="text" id = "srednie">
+    <br>
+    <label for="vypushenno">Q — количество выпущенной продукции в постоянных ценах:
+    </label><input type="text" id = "vypushenno"><br>
+    <label for="skorost">V — скорость обращения денег:</label><input type="text" id = "skorost">
+    <br>
+
+    <button class="p2" id ="send">Вычислить</button>
+    <p class="p1">М-денежная масса в обращении:
+        <p id="result"></p>
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.p1{
+    font: bold italic 26px Arial;
+}
+.p2:hover{
+    border:2px solid red; 
+    cursor: pointer;   
+}
